@@ -2,9 +2,9 @@ name: CI - Portfolio Website
 
 on:
   push:
-    branches: CI-Setup
+    branches: master
   pull_request:
-    branches: CI-Setup
+    branches: master
 
 jobs:
   build:
