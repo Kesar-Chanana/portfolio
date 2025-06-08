@@ -1,45 +1,38 @@
 
 export const services = [
     {
-        title: "Technology Enthusiast",
-        icon: 'https://csgeeek.github.io/web.png',
+        title: "CI CD(GitLab, Github Actions, Jenkins",
+        icon: 'https://seekvectors.com/files/download/gitlab-logo.png',
     },
     {
-        title: "Software Engineer",
-        icon: 'https://csgeeek.github.io/web.png',
+        title: "Cloud (AWS, Azure)",
+        icon: 'https://tse2.mm.bing.net/th?id=OIP.XK58i8lxxqevS1T8ym_ldgHaHa&pid=Api&P=0&h=220',
     },
     {
-        title: "Photographer",
-        icon: 'https://csgeeek.github.io/web.png',
+        title: "Scripting (Bash, Powershell, Python)",
+        icon: 'https://wallpaperaccess.com/full/314785.jpg',
+    },
+        {
+        title: "Devops Tools (Docker, Kubernetes, Terraform)",
+        icon: 'https://tse2.mm.bing.net/th?id=OIP.luQGbbOiLWCO5bFjIrB-KAHaG6&pid=Api&P=0&h=220',
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Kesar';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'company': 'Onebanc Technologies',
+        'role': 'Devops Engineer',
+        'duration': 'September 2024 - March 2025',
+        'logo': 'https://tse2.mm.bing.net/th?id=OIP.eMkFAQBA2qfqAoouvobj1AAAAA&pid=Api&P=0&h=220',
         'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Built and maintained CI/CD pipelines using GitLab and automated server tasks with Bash, PowerShell, Python, and Batch scripts.',
+            'Developed and deployed backend APIs, leveraging Docker for containerization and efficient delivery.',
+            'Automated system administration workflows and managed cloud infrastructure on AWS.',
+            'Ensured system reliability through robust monitoring, observability setups, and server management..'
         ],
-        'url': 'https://inncircles.com/#home',
-    },
-    {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
-        'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
-        ],
-        'url': 'https://www.att.com/',
+        'url': 'https://onebanc.ai/',
     },
 ]
 
