@@ -11,14 +11,14 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {title==='Cloud Resume Challenge' && <a href="https://github.com/Kesar-Chanana/Cloud-Resume-Challenge-AWS-SAM-serverless-stack-">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title==='Server Sync Automation Scrip' && <a href="https://github.com/Kesar-Chanana/Script-Sync-Servers">
+            {title==='Server Sync Automation Script' && <a href="https://github.com/Kesar-Chanana/Script-Sync-Servers">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
             {title==='Restaurant Rating Microservice with Kubernetes and Terraform Automation' && <a href="https://github.com/Kesar-Chanana/RestaurantRatingService">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={ktd} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
-                <a href="https://example.com">
+                <a href="https://github.com/Kesar-Chanana">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
                 </a>
                 <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
@@ -71,7 +71,7 @@ export const project = [
         technologies:['AWS SAM', 'Lambda', 'API Gateway, DynamoDB', 'S3', 'Route 53', 'CloudFront', 'GitHub Actions', 'Python', 'HTML/CSS']
     },
     {
-        title:'Server Sync Automation Scrip',
+        title:'Server Sync Automation Script',
         description:'Developed PowerShell scripts to automate error-resilient file syncing across Windows servers. Enabled flexible, config-driven sync with detailed logging and smart retries to enhance reliability and efficiency.',
         image: {copeople},
         git:"https://github.com/Kesar-Chanana/Script-Sync-Servers",
