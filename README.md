@@ -1,72 +1,48 @@
+# Personal Portfolio Website 🌐
 
-**Cloning an React project and running locally**
+This is my personal portfolio website.
 
-### `git clone https://github.com/nithingooud/nithin-portfolio`
-### `cd nithin-portfolio`
+I have enhanced the project by setting up a full CI/CD pipeline:
 
-**Look at the files and folder of the project**
-**Delete node_modules folder and package-lock.json file if exists**
+- ✅ **Continuous Integration (CI)** on **GitHub Actions**
+- 🚀 **Continuous Deployment (CD)** on **Netlify**
 
-**Run this following commands**
-### `npm install` 
-this will create node_modules folder and package-lock.json
+You can view the live website here: [[https://your-site.netlify.app](https://kesar-portfolio.netlify.app/)]([https://your-site.netlify.app](https://kesar-portfolio.netlify.app/)) <!-- Replace with your actual Netlify URL -->
 
-### `npm start` 
-it will start your react app
+---
 
-Now go to http://localhost:3000/ to visit your app
+## ✨ Features
 
-### `npm test`
+- Modern, responsive portfolio built with **React.js**.
+- Showcases my **projects**, **skills**, **experience**, and **contact** info.
+- Fully automated **build** and **deploy** pipeline:
+  - Build and test using **GitHub Actions**.
+  - Automatic deployment to **Netlify** on each push to `main` branch.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React.js, HTML5, CSS3
+- **CI:** GitHub Actions
+- **CD:** Netlify
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Deployment Pipeline
 
-### `npm run eject`
+### Continuous Integration (CI)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Triggered by every push and pull request.
+- Steps:
+  - Install dependencies.
+  - Run tests.
+  - Build React app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Continuous Deployment (CD)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Connected to Netlify.
+- Deploys automatically when changes are pushed to the `main` branch.
+- No manual steps required.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
