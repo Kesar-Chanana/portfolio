@@ -2,16 +2,20 @@
 import React from "react";
 import vpn from '../assets/vpn.png'
 import copeople from '../assets/copeople.png'
+import ktd from '../assets/ktd.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title==='Snap Shot' && <a href="https://example.com">
+            {title==='Cloud Resume Challenge' && <a href="https://github.com/Kesar-Chanana/Cloud-Resume-Challenge-AWS-SAM-serverless-stack-">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title==='Co People' && <a href="https://example.com">
+            {title==='Server Sync Automation Scrip' && <a href="https://github.com/Kesar-Chanana/Script-Sync-Servers">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+            </a>}
+            {title==='Restaurant Rating Microservice with Kubernetes and Terraform Automation' && <a href="https://github.com/Kesar-Chanana/RestaurantRatingService">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={ktd} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="https://example.com">
@@ -60,18 +64,25 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
+        title:'Cloud Resume Challenge',
+        description:'Built a fully serverless, globally distributed personal resume site on AWS with automated CI/CD. Integrated a Python-based backend to track visitors using Lambda, API Gateway, and DynamoDB.',
         image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
+        git:'https://github.com/Kesar-Chanana/Cloud-Resume-Challenge-AWS-SAM-serverless-stack-',
+        technologies:['AWS SAM', 'Lambda', 'API Gateway, DynamoDB', 'S3', 'Route 53', 'CloudFront', 'GitHub Actions', 'Python', 'HTML/CSS']
     },
     {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+        title:'Server Sync Automation Scrip',
+        description:'Developed PowerShell scripts to automate error-resilient file syncing across Windows servers. Enabled flexible, config-driven sync with detailed logging and smart retries to enhance reliability and efficiency.',
         image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        git:"https://github.com/Kesar-Chanana/Script-Sync-Servers",
+        technologies:[ 'PowerShell', 'Windows', 'Robocopy', 'SMB protocol', 'Logging', 'CSV', 'File system automation']
+    },
+    {
+        title:'Restaurant Rating Microservice with Kubernetes and Terraform Automation',
+        description:'This is a simple Java-based Restaurant Rating Service that I containerized using Docker and deployed on a Kubernetes cluster with Minikube for local testing. The infrastructure is partly managed via Terraform (Infrastructure as Code).',
+        image: {ktd},
+        git:"https://github.com/Kesar-Chanana/RestaurantRatingService",
+        technologies:[ 'Docker', 'Kubernetes', 'Terraform', 'Java', 'Spring Boot']  
     }
 ]
 
